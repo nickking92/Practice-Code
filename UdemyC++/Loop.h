@@ -21,9 +21,9 @@ namespace Loop {
 		void contBreak();
 		void devidedBy3or5();
 		void tenInRow();
-		void someOddNumbers();
+		void someOddinputbers();
 		void doubleValueOneLoop();
-		void evenNumbers();
+		void eveninputbers();
 		void whileLoop();
 		void doWhile();
 		void Table();

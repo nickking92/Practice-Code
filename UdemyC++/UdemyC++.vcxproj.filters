@@ -24,12 +24,24 @@
     <ClCompile Include="Loop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Characters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Loop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

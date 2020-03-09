@@ -149,11 +149,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Characters.cpp" />
+    <ClCompile Include="Function.cpp" />
     <ClCompile Include="Header.cpp" />
     <ClCompile Include="Loop.cpp" />
     <ClCompile Include="UdemyC++.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Characters.h" />
+    <ClInclude Include="Function.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Loop.h" />
   </ItemGroup>

@@ -6,9 +6,9 @@ namespace Loop {
         std::vector<char> ime{ 'N', 'i','n','a' };
         ime[0] = 'K';
         ime.at(0) = 'K';
-        for (auto slovo : ime)
+        for (char slovo : ime)
         {
-            std::cout << slovo;
+            std::cout << slovo<<std::endl;
         }
         std::cout << "" << std::endl;
         for (size_t i = 0; i < ime.size(); i++)
@@ -72,9 +72,9 @@ namespace Loop {
         {10,20,30,40},
         {100,200,300,400,500}
         };
-        for (auto vec : vector_2D)
+        for (const auto& vec : vector_2D)
         {
-            for (auto val : vec)
+            for (const auto& val : vec)
             {
                 std::cout << val << std::endl;
             }
@@ -84,16 +84,16 @@ namespace Loop {
 
     void Loop::contBreak()
     {
-        std::vector<int>someNumbers = { 1,2,3,4,5,7,8,9,10 };
-        for (auto num : someNumbers)
+        std::vector<int>someinputbers = { 1,2,3,4,5,7,8,9,10 };
+        for (auto input : someinputbers)
         {
-            if (num == 3) {
+            if (input == 3) {
                 continue;
             }
-            if (num == 8) {
+            if (input == 8) {
                 break;
             }
-            std::cout << num << std::endl;
+            std::cout << input << std::endl;
         }
     }
 
@@ -109,7 +109,7 @@ namespace Loop {
         }
     }
 
-    void Loop::someOddNumbers() {
+    void Loop::someOddinputbers() {
         int sum{};
         for (int i = 0; i < 16; i++)
         {
@@ -123,7 +123,7 @@ namespace Loop {
     void Loop::tenInRow() {
         for (int i = 1; i <= 100; ++i)
         {
-            std::cout << i << ((i % 10 == 0) ? "\n" : " ");
+            std::cout << i << ((i % 10 == 0) ? "\n" : " "); // every 10 (i) output new line
         }
     }
 
@@ -136,24 +136,24 @@ namespace Loop {
             std::cout << i << "*" << j << " = " << result << std::endl;
         }
     }
-    void Loop::evenNumbers() {
+    void Loop::eveninputbers() {
         const int size = 100;;
-        int evenNumbers[size];
+        int eveninputbers[size];
         for (int x = 0; x < size; x++)
         {
-            evenNumbers[x] = x;
+            eveninputbers[x] = x;
             if (x % 2 != 0)
             {
-                std::cout << evenNumbers[x] << std::endl;
+                std::cout << eveninputbers[x] << std::endl;
             }
         }
     }
     void Loop::whileLoop() {
-        int num;
+        int input;
 
-        while (std::cin >> num)
+        while (std::cin >> input)
         {
-            switch (num)
+            switch (input)
             {
             case Ponedeljak:
                 std::cout << "Danas je ponedeljak!" << std::endl;
@@ -184,9 +184,9 @@ namespace Loop {
     }
     void Loop::doWhile()
     {
-        int num = 0;
+        int input = 0;
         do {
-            switch (num)
+            switch (input)
             {
             case 0:
                 std::cout << "Hello" << std::endl;
@@ -206,7 +206,7 @@ namespace Loop {
                 std::cout << "Goodbye" << std::endl;
                 break;
             }
-        } while (std::cin >> num);
+        } while (std::cin >> input);
     }
 
 
@@ -242,5 +242,4 @@ namespace Loop {
           std::cout << *i << std::endl;
       }
     }
-
-
+}
