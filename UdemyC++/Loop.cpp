@@ -10,7 +10,7 @@ namespace Loop {
 
         std::vector<int> data;
 
-        for (int i = 1; i <= num_items; i++)
+        for (int i = 1; i <= num_items; ++i)
         {
             int data_Item;
             std::cin >> data_Item;
@@ -18,13 +18,19 @@ namespace Loop {
         }
         for (auto val : data)
         {
-            for (int i = 1; i <= val; i++)
+            for (int i = 1; i <= val; ++i)
             {
-                std::cout << "-";
+                if (i % 5 == 0)
+                {
+                    std::cout << "*";
+                }else
+                {
+                    std::cout << "-";
+                }
             }
             std::cout << std::endl;
         }
-        std::cout << std::endl;
+        //std::cout << std::endl;
     }
 
     

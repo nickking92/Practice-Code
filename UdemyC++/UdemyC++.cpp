@@ -8,25 +8,26 @@
 
 int main()
 {
-    Pointers::Pointers p;
-    size_t size;
-    int init_value;
-    int* allocation = nullptr;
-    std::cout << "How many intiger for allocation?" << std::endl;
-    std::cin >> size;
-    std::cout << "What value would you like them initialized?" << std::endl;
-    std::cin >> init_value;
-    allocation=p.dynamicallyAllocated_CreateArray(size,init_value); //4 intigera dodeljeno heapu
-    p.DisplayArray(allocation,size);
-   delete[] allocation;
+   // Pointers::Pointers p;
+   // size_t size;
+   // int init_value;
+   // int* allocation = nullptr;
+   // std::cout << "How many intiger for allocation?" << std::endl;
+   // std::cin >> size;
+   // std::cout << "What value would you like them initialized?" << std::endl;
+   // std::cin >> init_value;
+   // allocation=p.dynamicallyAllocated_CreateArray(size,init_value); //4 intigera dodeljeno heapu
+   // p.DisplayArray(allocation,size);
+   //delete[] allocation;
     /////////////////////////////////////
     
     //////////////////////////////////////////////////////////////////////////
 // /*   const char* name ="Nikola Krstic aka Nickking";
 //    std::cout <<name;*/
 //   // double radius;
-    Function f;
-    f.moreReference(f.names);
+   /* Function f;
+    f.moreReference(f.names);*/
+   
 //   // f.MathFunctions();
 //    //f.generateRandomNumber();
 //    //f.circleArea(radius);
@@ -60,7 +61,7 @@ int main()
 //
 
 //
-//   // Loop:: Loop l;
+     Loop:: Loop l;
 //    //l.contBreak();
 //    //to check l.devidedBy3or5();
 //    //l.doubleValueOneLoop();
@@ -78,5 +79,6 @@ int main()
 //  //  inputbers::Test t;
 //   /* t.Casting();
 //    t.printNumbers();*/
+     l.Histogram();
     return 0;
 }
