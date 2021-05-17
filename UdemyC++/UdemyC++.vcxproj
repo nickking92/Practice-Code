@@ -153,6 +153,7 @@
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="Header.cpp" />
     <ClCompile Include="Loop.cpp" />
+    <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="UdemyC++.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +161,7 @@
     <ClInclude Include="Function.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Loop.h" />
+    <ClInclude Include="Pointers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

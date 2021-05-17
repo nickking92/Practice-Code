@@ -1,6 +1,33 @@
 #include "Loop.h"
 
 namespace Loop {
+    void Loop::Histogram()
+    {
+        int num_items;
+
+        std::cout << "Enter number of items" << std::endl;
+        std::cin >> num_items;
+
+        std::vector<int> data;
+
+        for (int i = 1; i <= num_items; i++)
+        {
+            int data_Item;
+            std::cin >> data_Item;
+            data.push_back(data_Item);
+        }
+        for (auto val : data)
+        {
+            for (int i = 1; i <= val; i++)
+            {
+                std::cout << "-";
+            }
+            std::cout << std::endl;
+        }
+        std::cout << std::endl;
+    }
+
+    
     void Loop::vektorChar()
     {
         std::vector<char> ime{ 'N', 'i','n','a' };

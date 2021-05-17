@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Header.h"
+#include <vector>
 class Function
 {
 public:
@@ -11,7 +12,7 @@ public:
 	int minNum=1;
 	double Pi=3.1415;
 	double circle;
-
+	std::vector<std::string> names={ "Nikola","Nina","Helena","Dusan" };
 
 	void MathFunctions();
 	void generateRandomNumber();
@@ -23,5 +24,6 @@ public:
 	void staticExample();
 	loooong recursion(loooong n);
 	char toApperCase();
+	std::vector<std::string> moreReference(std::vector<std::string> names);
 };
 

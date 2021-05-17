@@ -1,5 +1,6 @@
 #include "Function.h"
 #include <time.h>
+
 void Function::MathFunctions()
 {
     std::cin >> input;
@@ -89,4 +90,15 @@ char Function::toApperCase()
     return toupper(input);
 }
 
-
+std::vector<std::string> Function::moreReference(std::vector<std::string> names)
+{
+for(auto& const name :names)
+{
+    name = "Nikola";
+}
+for (auto name : names)
+{
+    std::cout << name << std::endl;
+}
+return names;
+}
