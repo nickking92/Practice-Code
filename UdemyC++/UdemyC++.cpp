@@ -79,6 +79,7 @@ int main()
 //  //  inputbers::Test t;
 //   /* t.Casting();
 //    t.printNumbers();*/
-     l.Histogram();
+   //  l.Histogram();
+     l.NestedCalculate();
     return 0;
 }

@@ -28,6 +28,7 @@ namespace Loop {
 		void doWhile();
 		void Table();
 		void pointerCharLoop();
+		void NestedCalculate();
 		void Histogram();
 	};
 }

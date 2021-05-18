@@ -1,6 +1,23 @@
 #include "Loop.h"
 
 namespace Loop {
+
+    void Loop::NestedCalculate()
+    {
+        int result = 0;
+
+        std::vector<int>vec = { 1,2,3,4,5 };
+        if (vec.size() > 1) {
+            for (size_t i = 0; i < vec.size()-1; i++)
+                for (size_t j = i + 1; j < vec.size(); j++)
+                {
+                    result = result + vec.at(i) * vec.at(j);
+                    std::cout << result << std::endl;
+
+                }
+        }
+    }
+
     void Loop::Histogram()
     {
         int num_items;
