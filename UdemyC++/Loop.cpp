@@ -6,7 +6,7 @@ namespace Loop {
     {
         int result = 0;
 
-        std::vector<int>vec = { 1,2,3,4,5 };
+        std::vector<int>vec = { 1,2,3};
         if (vec.size() > 1) {
             for (size_t i = 0; i < vec.size()-1; i++)
                 for (size_t j = i + 1; j < vec.size(); j++)
