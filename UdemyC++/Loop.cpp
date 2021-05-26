@@ -11,7 +11,7 @@ namespace Loop {
             for (size_t i = 0; i < vec.size()-1; i++)
                 for (size_t j = i + 1; j < vec.size(); j++)
                 {
-                    result = result + vec.at(i) * vec.at(j);
+                    result += (vec[i] * vec[j]);
                     std::cout << result << std::endl;
 
                 }

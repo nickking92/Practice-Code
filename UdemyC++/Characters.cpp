@@ -25,6 +25,22 @@ namespace StringsAndchars {
 		std::cout << s2 << std::endl;
 		//std::cout << s.clear() << std::endl;
 	}
+	void Characters::Found()
+	{
+		std::string name = "Nikola";
+		std::string word;
+		std::cin >> word;
+
+		size_t postion = name.find(word);
+		if (postion != std::string::npos)
+		{
+			std::cout << "Found" << word << " at position " << postion << std::endl;
+		}
+		else
+		{
+			std::cout << "Sorry word " << word << " not found" << std::endl;
+		}
+	}
 	void Characters::SecretMessage()
 	{
 		std::cout << "Enter secret message:" << std::endl;

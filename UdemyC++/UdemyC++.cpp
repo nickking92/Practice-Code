@@ -54,6 +54,7 @@ int main()
 //
 //   // StringsAndchars::Characters c;
 //    //c.SecretMessage();
+//     c.Found();
 //   // c.Pyramid();
 //  /*  c.UdemyPyramid();*/
 //    //c.stringExample();
@@ -79,7 +80,7 @@ int main()
 //  //  inputbers::Test t;
 //   /* t.Casting();
 //    t.printNumbers();*/
-   //  l.Histogram();
-     l.NestedCalculate();
+   l.Histogram();
+     //l.NestedCalculate();
     return 0;
 }

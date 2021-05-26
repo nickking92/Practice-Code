@@ -29,6 +29,7 @@ namespace StringsAndchars {
 
 		void Print();
 		void stringExample();
+		void Found();
 		void SecretMessage();
 		void Pyramid();
 		void UdemyPyramid();
