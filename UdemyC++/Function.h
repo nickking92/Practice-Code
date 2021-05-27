@@ -25,5 +25,7 @@ public:
 	loooong recursion(loooong n);
 	char toApperCase();
 	std::vector<std::string> moreReference(std::vector<std::string> names);
+	double fahrenheit_to_celsius(double temperature);
+	double fahrenheit_to_kelvin(double temperature);
 };
 

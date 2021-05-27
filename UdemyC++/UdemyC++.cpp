@@ -25,9 +25,10 @@ int main()
 // /*   const char* name ="Nikola Krstic aka Nickking";
 //    std::cout <<name;*/
 //   // double radius;
-   /* Function f;
-    f.moreReference(f.names);*/
-   
+    Function f;
+    f.moreReference(f.names);
+    f.fahrenheit_to_celsius(87);
+    f.fahrenheit_to_kelvin(87)
 //   // f.MathFunctions();
 //    //f.generateRandomNumber();
 //    //f.circleArea(radius);

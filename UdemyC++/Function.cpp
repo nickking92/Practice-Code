@@ -102,3 +102,13 @@ for (auto name : names)
 }
 return names;
 }
+
+double Function::fahrenheit_to_celsius(double temperature)
+{
+    return round(((temperature - 32) * 5) / 9);
+}
+
+double Function::fahrenheit_to_kelvin(double temperature)
+{
+    return round(((temperature - 32) * (5) / 9 + 273));
+}
