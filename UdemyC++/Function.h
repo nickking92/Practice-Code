@@ -27,5 +27,6 @@ public:
 	std::vector<std::string> moreReference(std::vector<std::string> names);
 	double fahrenheit_to_celsius(double temperature);
 	double fahrenheit_to_kelvin(double temperature);
+	int getFibonachiNumber(int index);
 };
 

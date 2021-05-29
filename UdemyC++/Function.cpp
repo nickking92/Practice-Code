@@ -81,7 +81,16 @@ loooong Function::recursion(loooong n)
             return 1;
             return n * recursion(n - 1);
           
-    }
+ }
+
+
+int getFibonachiNumber(int index)
+{
+    if (index < 2)
+        return index;
+    else if (index >= 2)
+        return getFibonachiNumber(index - 1) + getFibonachiNumber(index - 2);
+}
 
 char Function::toApperCase()
 {
